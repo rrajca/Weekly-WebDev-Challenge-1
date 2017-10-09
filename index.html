@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>masteralb</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<img src="img/logo.png" alt="logo">
+			<img src="img/logo-text.png" alt="masteralb creative">
+		</header>
+		<main class="main">
+			<div class="col-left">
+				<section>
+					<div class="section-header">
+						<h2>Register Form</h2>
+					</div>
+					<div class="section-border">
+						<div class="section-form">
+							<form action="">
+								<div class="form-input">
+									<span class="icon">
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</span>
+									<input type="text" name="username" required placeholder="Username" class="input-field">
+								</div>
+								<div class="form-input">
+									<span class="icon">
+										<i class="fa fa-lock" aria-hidden="true"></i>
+									</span>
+									<input type="password" name="password" required placeholder="Password" class="input-field">
+								</div>
+								<div class="form-input">
+									<span class="icon">
+										<i class="fa fa-lock" aria-hidden="true"></i>
+									</span>
+									<input type="password" name="confirm-password" required placeholder="Confirm Password" class="input-field">
+								</div>
+								<div class="form-input">
+									<span class="icon">
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+									</span>
+									<input type="email" name="email" required placeholder="Email" class="input-field">
+								</div>
+								<div class="form-input">
+									<span class="icon">
+										<i class="fa fa-map-marker" aria-hidden="true"></i>
+									</span>
+									<select name="location" required class="input-field">
+										<option value="" disabled selected hidden>Your Location</option>
+										<option value="england">England</option>
+										<option value="germany">Germany</option>
+										<option value="turkey">Turkey</option>
+										<option value="poland">Poland</option>
+										<option value="spain">Spain</option>
+								  	</select>
+								</div>
+								<label class="checkbox-label">
+									<input type="checkbox" name="terms" required class="checkbox">I have read and accept the terms of use.
+								</label>
+								<input type="submit" value="Sign up" class="input-submit">
+							</form>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="section-header">
+						<h2>Send Email</h2>
+					</div>
+					<div class="section-border">
+						<div class="section-form">
+							<form action="">
+								<div class="form-input">
+									<span class="icon">
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</span>
+									<input type="text" name="username" required placeholder="Your Name" class="input-field">
+								</div>
+								<div class="form-input">
+									<span class="icon">
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+									</span>
+									<input type="email" name="email" required placeholder="Your Email" class="input-field">
+								</div>
+								<textarea name="message" cols="30" rows="10" class="form-textarea">Type your message ...</textarea>
+
+								<label class="checkbox-label">
+									<input type="checkbox" name="send-copy" class="checkbox">Send copy to my Email
+								</label>
+								<input type="submit" value="Send Email" class="input-submit">
+							</form>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="col-right">
+				<section>
+					<div class="section-header">
+						<h2>Sign In Form</h2>
+					</div>
+					<div class="section-border">
+						<div class="section-form">
+							<form action="">
+								<div class="form-input">
+									<span class="icon">
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</span>
+									<input type="text" name="username" required placeholder="Username" class="input-field">
+								</div>
+								<div class="form-input">
+									<span class="icon">
+										<i class="fa fa-lock" aria-hidden="true"></i>
+									</span>
+									<input type="password" name="password" required placeholder="Password" class="input-field">
+								</div>
+								<div class="doublebutton">
+								    <label class="checkbox-label">
+								        <input type="checkbox" name="send-copy" class="checkbox">Remember me
+								    </label>
+								    <input type="submit" value="Sign in" class="input-submit input-submit-small">
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="section-header">
+						<h2>Recover Form</h2>
+					</div>
+					<div class="section-border">
+						<div class="section-form">
+							<form action="">
+								<div class="form-input">
+									<span class="icon">
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+									</span>
+									<input type="email" name="email" required placeholder="Enter your Email" class="input-field">
+								</div>
+								<div class="form-input">
+									<span class="icon">
+										<i class="fa fa-phone" aria-hidden="true"></i>
+									</span>
+									<input type="tel" name="phone" required placeholder="Enter your Phone number" class="input-field">
+								</div>
+								<div class="doublebutton">
+								    <input type="submit" value="Send" class="input-submit input-submit-small">
+								    <button class="input-submit input-submit-small recover-button">Done</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="section-header">
+						<h2>Subscribe Form</h2>
+					</div>
+					<div class="section-border">
+						<div class="section-form">
+							<form action="">
+								<div class="form-input">
+									<span class="icon">
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+									</span>
+									<input type="email" name="email" placeholder="Enter your Email" class="input-field">
+								</div>
+								<div class="doublebutton">
+								    <input type="submit" value="Subscribe" class="input-submit input-submit-small">
+								    <button class="input-submit input-submit-small subscribe-button">No, Thanks</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+				<aside class="aside">
+					<img src="img/logo-bottom.png" alt="masteralb logo">
+				</aside>
+			</div>
+		</main>
+	</div>
+</body>
+</html>

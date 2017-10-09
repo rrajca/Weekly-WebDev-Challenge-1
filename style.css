@@ -1,0 +1,191 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400');
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+	color: #afafaf;
+	background-image: url(img/bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	width: 920px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 55px;
+	margin-bottom: 25px;
+	opacity: 0.3; 
+}
+
+header img:first-of-type {
+	margin-right: 20px;
+}
+
+.main {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+[class*="col-"] {
+	width: 420px;
+	display: flex;
+	flex-direction: column;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+.section-header {
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 32px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.section-border {
+	width: 100%;
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-form {
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	background: #FFF;
+	border-radius: 5px;
+}
+
+.input-field {      
+	border: none;
+	font-family: 'Titillium Web', sans-serif;
+	color: #afafaf;
+	font-size: 16px;
+	margin-left: 20px;
+	width: calc(100% - 60px);
+}
+
+.input-field::placeholder {
+	color: #afafaf;
+}
+
+.form-input {
+	height: 40px;
+	color: #afafaf;
+	border: 1px #dedede solid;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.form-textarea {
+	width: 308px;
+	height: 198px;
+	padding: 15px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	color: #afafaf;
+	border: 1px #dedede solid;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.icon {
+	width: 60px;
+	font-size: 28px;
+	color: #dedede;
+	text-align: center;
+	border-right: 1px #dedede solid;
+	display: inline-block;
+}
+
+.checkbox-label {
+	margin-bottom: 20px;
+	display: block;
+	cursor: pointer;
+}
+
+.checkbox {
+	margin-right: 10px;
+}
+
+.input-submit {
+	width: 100%;
+	height: 50px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 24px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	background: linear-gradient(#addc54, #7ec31f);
+	border: 1px #3B9A00 solid;
+	border-radius: 5px;
+}
+
+.input-submit:hover {
+    opacity: 0.8;
+}
+
+.input-submit-small {
+    width: 45%;
+}
+
+.doublebutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.doublebutton .checkbox-label {
+    margin-bottom: 0;
+}
+
+.recover-button {
+    opacity: 0.5;
+}
+
+.subscribe-button {
+	background: linear-gradient(#f76f7f, #f03747);
+	border: 1px #a2202a solid;
+}
+
+.aside {
+	text-align-last: center;
+	opacity: 0.3
+}
+
+/* MEDIA QUERIES */
+
+@media all and (max-width: 945px) {
+	
+	.container {
+		width: 100%;
+	}
+	
+	.main {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.aside {
+		margin-bottom: 40px;
+	}
+}
