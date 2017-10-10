@@ -16,12 +16,12 @@ body {
 }
 
 header {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	margin-top: 55px;
 	margin-bottom: 25px;
-	opacity: 0.3; 
+	opacity: 0.3;
+    display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 header img:first-of-type {
@@ -50,8 +50,8 @@ section {
 }
 
 h2 {
-	font-weight: 400;
 	font-size: 32px;
+    font-weight: 400;
 	color: #FFF;
 	text-shadow: 1px 1px 1px #000;
 }
@@ -74,13 +74,13 @@ h2 {
 	border-radius: 5px;
 }
 
-.input-field {      
+.input-field {
+    width: calc(100% - 60px);
+    padding-left: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    color: #afafaf;
 	border: none;
-	font-family: 'Titillium Web', sans-serif;
-	color: #afafaf;
-	font-size: 16px;
-	margin-left: 20px;
-	width: calc(100% - 60px);
 }
 
 .input-field::placeholder {
@@ -168,7 +168,7 @@ h2 {
 }
 
 .aside {
-	text-align-last: center;
+	text-align: center;
 	opacity: 0.3
 }
 
