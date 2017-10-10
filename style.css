@@ -174,7 +174,42 @@ h2 {
 
 /* MEDIA QUERIES */
 
-@media all and (max-width: 945px) {
+@media all and (max-width: 600px) {
+    
+    .container {
+        width: 100%;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    header img:first-of-type {
+        margin-right: 0;
+    }
+    
+    .main {
+		flex-direction: column;
+		align-items: center;
+	}
+    
+    
+    [class*="col-"] {
+        width: 360px;
+    }
+    
+    .form-textarea {
+        width: 248px;
+    }
+	
+	.aside {
+		margin-bottom: 40px;
+	}
+}
+
+@media all and (max-width: 945px) and (min-width: 601px) {
 	
 	.container {
 		width: 100%;
@@ -184,6 +219,14 @@ h2 {
 		flex-direction: column;
 		align-items: center;
 	}
+    
+        [class*="col-"] {
+        width: 550px;
+    }
+    
+    .form-textarea {
+        width: 438px;
+    }
 	
 	.aside {
 		margin-bottom: 40px;
