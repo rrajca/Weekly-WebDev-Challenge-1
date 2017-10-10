@@ -203,6 +203,10 @@ h2 {
     .form-textarea {
         width: 248px;
     }
+    
+    .input-submit {
+        font-size: 20px;
+    }
 	
 	.aside {
 		margin-bottom: 40px;
